@@ -1,0 +1,24 @@
+{{#if message}}
+    <h1>{{message}}</h1>
+{{else}}
+    <h1>Форма авторизації</h1>
+{{/if}}
+
+<div class="container">
+    <div class="form">
+        <form action="/" method="post">
+            <divc class="form-group">
+                <input type="email" name="email" class="form-control" aria-describedby="emailHelp" placeholder="Введіть Email">
+            </divc>
+            <div class="form-group">
+                <input type="password" name="pas" class="form-control" placeholder="Введіть Password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Вход</button>
+        </form>
+    </div>
+
+    {{#if msg}}
+        <div class="msg-error">{{msg}} <a href="/reg">Реєстрація тут...</a></div>
+    {{/if}}
+
+</div>

@@ -1,0 +1,44 @@
+h1, h2, h3{
+    text-align: center;
+    color: #619cf3;
+}
+li{
+    list-style-type: none;
+}
+.btn-ext{
+    text-align: center;
+    margin-top: 20px;
+}
+.container{
+    padding: 12px;
+}
+.form, .main-users, .msg-error{
+    border-radius: 14px;
+}
+.form{
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    border: 2px solid #0069d9;
+    padding: 16px;
+}
+.form-control {
+    margin-bottom: 24px;
+    margin-top: 10px;
+}
+.main-users{
+    border: 2px solid #0069d9;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.msg-error{
+    max-width: 400px;
+    border: 2px solid red;
+    color: red;
+    margin: 0 auto;
+    padding: 10px;
+}

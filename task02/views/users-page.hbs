@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="main-users">
+        {{#each users}}
+            <ul>
+                <li>
+                    username: {{this.name}}
+                    email: {{this.email}}
+                </li>
+            </ul>
+        {{/each}}
+    </div>
+    <div class="btn-ext">
+        <a class="btn btn-primary" href="/">Виход</a>
+    </div>
+</div>
